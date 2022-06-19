@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# Find public IP.
+
+ip=$(curl ifconfig.me -s)
+echo "Public IP: ${ip}"
