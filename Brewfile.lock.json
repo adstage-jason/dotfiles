@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "44e38faac626ac1f89543bf11467cf81ada43ae6"
+        "revision": "48c4831a4edd0b81f369f9710e470794c637d667"
       }
     },
     "brew": {
@@ -49,6 +49,20 @@
             }
           }
         }
+      },
+      "asdf": {
+        "version": "0.10.2",
+        "bottle": {
+          "rebuild": 1,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/asdf/blobs/sha256:2098bd4ff1da95064d7d112e8287532c077b1e1bda0dcb91fd977f7bac65ba5e",
+              "sha256": "2098bd4ff1da95064d7d112e8287532c077b1e1bda0dcb91fd977f7bac65ba5e"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -89,7 +103,7 @@
         }
       },
       "firefox": {
-        "version": "106.0.4",
+        "version": "106.0.5",
         "options": {
           "full_name": "firefox",
           "args": {
@@ -179,7 +193,7 @@
         }
       },
       "postman": {
-        "version": "10.0.1",
+        "version": "10.1.2",
         "options": {
           "full_name": "postman",
           "args": {
@@ -188,7 +202,7 @@
         }
       },
       "protonvpn": {
-        "version": "3.0.4",
+        "version": "3.0.5",
         "options": {
           "full_name": "protonvpn",
           "args": {
@@ -200,6 +214,24 @@
         "version": "4.13.1,90346",
         "options": {
           "full_name": "docker",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "ngrok": {
+        "version": "3.1.0,gMHPWQMhW1J,a",
+        "options": {
+          "full_name": "ngrok",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "rectangle-pro": {
+        "version": "2.7.1,127",
+        "options": {
+          "full_name": "rectangle-pro",
           "args": {
             "appdir": "/Applications"
           }
@@ -218,10 +250,10 @@
         "macOS": "11.4"
       },
       "monterey": {
-        "HOMEBREW_VERSION": "3.6.8",
+        "HOMEBREW_VERSION": "3.6.9",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "f0a57e9d6af030b3c8daee72b91ca541e1683543",
-        "CLT": "14.1.0.0.1.1666437224",
+        "Homebrew/homebrew-core": "47c924656ffea421487417ecd363bd60a98900f8",
+        "CLT": "14.0.0.0.1.1661618636",
         "Xcode": "14.1",
         "macOS": "12.6.1"
       }
