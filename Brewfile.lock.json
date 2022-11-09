@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "48c4831a4edd0b81f369f9710e470794c637d667"
+        "revision": "5216bbdd9d47b1cb01c0d2cb656de32540ada95d"
       }
     },
     "brew": {
@@ -112,7 +112,7 @@
         }
       },
       "google-chrome": {
-        "version": "107.0.5304.87",
+        "version": "107.0.5304.110",
         "options": {
           "full_name": "google-chrome",
           "args": {
@@ -220,7 +220,7 @@
         }
       },
       "ngrok": {
-        "version": "3.1.0,gMHPWQMhW1J,a",
+        "version": "3.1.0,7gHuLibjv89,a",
         "options": {
           "full_name": "ngrok",
           "args": {
@@ -251,11 +251,19 @@
       },
       "monterey": {
         "HOMEBREW_VERSION": "3.6.9",
-        "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "47c924656ffea421487417ecd363bd60a98900f8",
-        "CLT": "14.0.0.0.1.1661618636",
-        "Xcode": "14.1",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "13c489653f4da92c8c88d8be78213a2f1df573a5",
+        "CLT": "13.4.0.0.1.1651278267",
+        "Xcode": "13.4.1",
         "macOS": "12.6.1"
+      },
+      "ventura": {
+        "HOMEBREW_VERSION": "3.6.9",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "5cd44bc2d74eba8cbada8bb85f505c0ac847057b",
+        "CLT": "14.1.0.0.1.1666437224",
+        "Xcode": "14.1",
+        "macOS": "13.0"
       }
     }
   }
