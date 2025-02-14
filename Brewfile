@@ -7,6 +7,7 @@ brew 'gpg2'
 
 cask '1password'
 cask 'alfred'
+cask 'bartender'
 cask 'docker'
 cask 'dropbox'
 cask 'firefox'

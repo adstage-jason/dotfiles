@@ -31,7 +31,10 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+	autoSetupRemote = true
 [credential]
 	helper = osxkeychain
 [url "https://"]
 	insteadOf = git://
+[user]
+	email = jason@samepage.ai
