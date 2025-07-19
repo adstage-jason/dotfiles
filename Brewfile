@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 
 brew 'asdf'
 brew 'gpg2'
+brew 'mosh'
 
 cask '1password'
 cask 'alfred'
